@@ -1,0 +1,23 @@
+#container {
+  text-align: center;
+}
+#botao {
+  font-size: 20px;
+  margin-top: 50px;
+  border-radius: 4px;
+  background-color: #f4f467;
+}
+#titulo {
+  text-align: center;
+}
+#paragrafo {
+  text-align: center;
+}
+#imagemDoDia {
+  max-width: 60%;
+  height: 500px;
+}
+
+#title {
+  font-weight: bold;
+}
