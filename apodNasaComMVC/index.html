@@ -3,20 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href = "reset.css">
   <link rel = "stylesheet" href ="style.css">
   <script src = "logica.js" defer></script>
+  <link rel="shortcut icon" href="favico.png" >
   <title>APOD Nasa</title>
 </head>
 <body>
-  <h1>Astronomy Picture of the Day by Juliete Freitas</h1>
-  <div id ="formulario">
-    <h3>Escolha uma data</h3>
-    <input type="date"  id="input-data" >
-    <input type="button" value="Enviar" id="submit">
-  </div>
-  <div id = "exibicao">
-    <img id = "imagem">
-    <p id = "paragrafo"></p>
-  </div>
+  <h1>Astronomy Picture of the Day</h1>
+  <center>
+    <section>
+      <h3>Escolha uma data</h3>
+      <div id ="formulario">
+        <input type="date"  id="inputDate" >
+        <input type="button" value="Enviar" id="submit">
+      </div>
+    </section> 
+    <div id = "exibicao">
+      <p id = "paragrafo"></p>
+      <img id = "imagem">
+    </div>
+</center>
 </body>
+<footer>
+  <p>&copy; 2020</p>
+</footer>
 </html>

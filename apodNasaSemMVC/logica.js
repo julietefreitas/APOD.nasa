@@ -10,7 +10,7 @@ let explanation = document.querySelector("#explanation");
 botaoAdicionar.addEventListener("click", function() {
     var pedido = new XMLHttpRequest();
 
-    pedido.open("GET", "https://api.nasa.gov/planetary/apod?api_key=I4y6ybtnYwrnLo5eCltnNadJdutyBuhCeFGpVkaA"); 
+    pedido.open("GET", `https://api.nasa.gov/planetary/apod?api_key=I4y6ybtnYwrnLo5eCltnNadJdutyBuhCeFGpVkaA&date=2020-11-07`); 
 
     pedido.addEventListener("load", function() {
         if (pedido.status == 200) {
