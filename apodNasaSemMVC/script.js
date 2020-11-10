@@ -27,7 +27,6 @@ botaoAdicionar.addEventListener("click", function() {
             botaoAdicionar.remove(); 
         } else {
             console.log(pedido.status);
-            console.log(pedido.responseText);
         }
     });
     pedido.send();
